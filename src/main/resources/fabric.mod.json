@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "fastbots",
+	"version": "${version}",
+	"name": "Fast Bots",
+	"description": "Makes Carpet fake players spawn instantly: names with no Mojang account skip the blocking name lookup and skin download that throttled big bot armies to ~3 per second.",
+	"authors": [
+		"redishpurple"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"carpet": "*"
+	},
+	"mixins": [
+		"fastbots.mixins.json"
+	]
+}

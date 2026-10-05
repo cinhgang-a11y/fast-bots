@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.ville.fastbots.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"EntityPlayerMPFakeMixin",
+		"PlayerCommandMixin",
+		"NameCacheAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
